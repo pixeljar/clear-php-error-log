@@ -1,0 +1,16 @@
+{
+    "name": "pixeljar/clear-php-error-log",
+    "description": "This plugin empties the php error log every time DesktopServer services are started",
+    "type": "wordpress-plugin",
+    "license": "GPL2",
+    "authors":[
+        {
+            "name": "Pixel Jar",
+            "email": "info@pixeljar.com",
+            "homepage": "https://github.com/pixeljar"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
