@@ -1,7 +1,10 @@
 <?php
 
 global $ds_runtime;
-if ( 'start_services' != $ds_runtime->last_ui_event->action ) {
+if (
+	! isset( $ds_runtime->last_ui_event->action ) ||
+	'start_services' != $ds_runtime->last_ui_event->action
+) {
 	return;
 }
 
